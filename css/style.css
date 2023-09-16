@@ -1,0 +1,78 @@
+/* Revalia Font*/
+@import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
+/* font-family: 'Revalia', cursive; */
+
+/* Saira Font */
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Saira', sans-serif; */
+
+/* Rowdies Font */
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+/* font-family: 'Rowdies', cursive; */
+
+:root {
+  --main-color: linear-gradient(
+    257deg,
+    rgba(4, 1, 108, 0.8) 0.69%,
+    rgba(74, 22, 189, 0.8) 100%
+  );
+  --bg-color-button: linear-gradient(102deg, #083f9b 0%, #7f56d9 93.39%);
+  --white-color: #fff;
+  --green-color-1: #2aaa94;
+  --green-color-2: #4be5ca;
+  --black-color-1: #1b2336;
+  --black-color-2: #4a4a4a;
+  --black-color-3: #4f547b;
+  --black-color-4: #4e596b;
+  --black-color-5: #324361;
+  --black-color-6: #5e6775;
+  --black-color-7: #1d1d45;
+  --black-color-8: #7e7eaa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff !important; */
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Start Header */
+
+.logo-title {
+  font-family: "Revalia", cursive;
+  color: var(--black-color-1);
+}
+.logo-title > span {
+  color: var(--green-color-1);
+}
+
+.h-link {
+  font-family: "Saira", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.h-link:hover {
+  color: var(--green-color-1) !important;
+}
+
+.h-login {
+  font-family: "Saira", sans-serif;
+  color: var(--black-color-2);
+  text-decoration: underline;
+}
+
+.h-signup {
+  background: var(--bg-color-button);
+}
